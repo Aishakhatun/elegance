@@ -148,25 +148,30 @@ export const AboutPage = () => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {teamMembers.map((member) => (
+          {teamMembers.map((member, idx) => (
             <motion.div
               key={member.id}
               whileHover={{ y: -8 }}
               className="group rounded-3xl bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 flex flex-col justify-between"
             >
-              <div className="relative aspect-[4/5] overflow-hidden bg-slate-950">
+              <div className="relative aspect-[4/5] overflow-hidden bg-slate-950 flex items-center justify-center">
                 <img
                   src={member.image}
                   alt={member.name}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 group-hover:opacity-100"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
-                  <button
-                    onClick={() => setSelectedMember(member)}
-                    className="w-full py-2.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-lg hover:bg-indigo-500 transition-colors"
-                  >
-                    View Full Bio
-                  </button>
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent flex items-end p-6">
+                  <div className="w-full space-y-2">
+                    <span className="px-3 py-1 rounded-full bg-indigo-500/20 text-indigo-300 border border-indigo-500/30 text-[11px] font-bold tracking-wider uppercase inline-block">
+                      {member.role}
+                    </span>
+                    <button
+                      onClick={() => setSelectedMember(member)}
+                      className="w-full py-2.5 rounded-xl bg-indigo-600 text-white font-bold text-xs shadow-lg hover:bg-indigo-500 transition-colors"
+                    >
+                      View Member Bio
+                    </button>
+                  </div>
                 </div>
               </div>
 
@@ -174,7 +179,7 @@ export const AboutPage = () => {
                 <h3 className="font-heading font-extrabold text-lg text-slate-900 dark:text-white group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors">
                   {member.name}
                 </h3>
-                <p className="text-xs font-semibold text-indigo-600 dark:text-indigo-400">
+                <p className="text-xs font-semibold text-slate-500 dark:text-slate-400">
                   {member.role}
                 </p>
                 <div className="flex justify-center gap-3 pt-3 text-slate-400">
