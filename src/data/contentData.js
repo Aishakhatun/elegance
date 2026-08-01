@@ -198,7 +198,7 @@ export const teamMembers = [
     id: 1,
     name: "JANE ANISTON",
     role: "Creative Director",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
     bio: "Over 12 years leading creative teams for global brands. Specializes in luxury brand identities, art direction, and visual storytelling.",
     skills: ["Creative Direction", "Brand Strategy", "UI/UX Architecture"],
     socials: { twitter: "#", linkedin: "#", github: "#", instagram: "#" }
@@ -207,7 +207,7 @@ export const teamMembers = [
     id: 2,
     name: "JOHN DOE",
     role: "Lead Developer",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=600&q=80",
     bio: "Full-stack architect with a deep love for clean code, micro-frontend architectures, React ecosystems, and high-performance WebGL graphics.",
     skills: ["React / Next.js", "Tailwind CSS", "TypeScript", "Node.js"],
     socials: { twitter: "#", linkedin: "#", github: "#", instagram: "#" }
@@ -216,7 +216,7 @@ export const teamMembers = [
     id: 3,
     name: "TANE NISTON",
     role: "Lead Graphic Designer",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?auto=format&fit=crop&w=600&q=80",
     bio: "Award-winning designer obsessed with typography, editorial layouts, vector illustration, and 3D brand assets.",
     skills: ["Figma & Illustrator", "Motion Graphics", "3D Rendering", "Typography"],
     socials: { twitter: "#", linkedin: "#", github: "#", instagram: "#" }
@@ -225,7 +225,7 @@ export const teamMembers = [
     id: 4,
     name: "SARAH JENKINS",
     role: "UI/UX & Product Lead",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80",
+    image: "https://images.unsplash.com/photo-1617042375876-a13e36732a04?auto=format&fit=crop&w=600&q=80",
     bio: "Dedicated to creating human-centered interfaces. Transforms complex user workflows into effortless, delightful software interaction.",
     skills: ["UX Research", "Wireframing", "Usability Testing", "Design Systems"],
     socials: { twitter: "#", linkedin: "#", github: "#", instagram: "#" }
@@ -294,7 +294,7 @@ export const testimonials = [
     id: 1,
     name: "Elena Rostova",
     role: "CEO at Luminary Paris",
-    avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80",
+    avatar: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=200&q=80",
     quote: "Elegance transformed our online presence completely. The design quality and responsiveness exceeded all expectations. Our sales increased by 40% within 2 months!",
     rating: 5
   },
@@ -302,7 +302,7 @@ export const testimonials = [
     id: 2,
     name: "Marcus Vance",
     role: "CTO at Nexus Quantum",
-    avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80",
+    avatar: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?auto=format&fit=crop&w=200&q=80",
     quote: "Working with Jane and John's team was an absolute pleasure. Their attention to UX detail, clean React code, and performance optimization is world-class.",
     rating: 5
   },
@@ -310,7 +310,7 @@ export const testimonials = [
     id: 3,
     name: "Sophia Chen",
     role: "Founder at Aura Health",
-    avatar: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&q=80",
+    avatar: "https://images.unsplash.com/photo-1633167606207-d840b5070fc2?auto=format&fit=crop&w=200&q=80",
     quote: "The brand identity and mobile app UI developed by Elegance set us apart in a highly competitive market. They truly build WOW experiences!",
     rating: 5
   }

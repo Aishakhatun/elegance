@@ -57,8 +57,8 @@ export const AboutPage = () => {
           <div className="relative">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl border border-slate-200 dark:border-slate-800">
               <img
-                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80"
-                alt="Elegance Studio Office"
+                src="https://images.unsplash.com/photo-1517502884422-41eaead166d4?auto=format&fit=crop&w=800&q=80"
+                alt="Elegance Studio Office Workspace"
                 className="w-full h-full object-cover"
               />
             </div>
